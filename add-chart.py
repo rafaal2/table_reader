@@ -27,7 +27,7 @@ barchart.add_data(data, titles_from_data=True)
 barchart.set_categories(categories)
 
 sheet.add_chart(barchart, "B12")
-barchart.title = 'Sales by Product line'
+barchart.title = 'vendas por produto'
 barchart.style = 5  
 
 
